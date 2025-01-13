@@ -109,7 +109,7 @@ isMaximal: {
     statusline = {
       lualine = {
         enable = true;
-        theme = "catppuccin";
+        theme = "gruvbox";
       };
     };
 
