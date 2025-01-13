@@ -204,7 +204,7 @@ isMaximal: {
       borders.enable = true;
       noice.enable = true;
       colorizer.enable = true;
-      modes-nvim.enable = true; # the theme looks terrible with catppuccin
+      modes-nvim.enable = false; # the theme looks terrible with catppuccin
       illuminate.enable = true;
       breadcrumbs = {
         enable = isMaximal;
