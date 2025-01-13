@@ -81,8 +81,8 @@ isMaximal: {
       elixir.enable = false;
       haskell.enable = false;
 
-      tailwind.enable = false;
-      svelte.enable = false;
+      tailwind.enable = true;
+      svelte.enable = true;
 
       # Nim LSP is broken on Darwin and therefore
       # should be disabled by default. Users may still enable
@@ -117,7 +117,7 @@ isMaximal: {
       enable = true;
       name = "gruvbox";
       style = "dark";
-      transparent = false;
+      transparent = true;
     };
 
     autopairs.nvim-autopairs.enable = true;
@@ -244,7 +244,7 @@ isMaximal: {
     };
 
     presence = {
-      neocord.enable = false;
+      neocord.enable = true;
     };
   };
 }
